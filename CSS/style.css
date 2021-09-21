@@ -1,0 +1,101 @@
+.header-footer {
+    height: 70px;
+    background-color: #171614;
+}
+.header-footer a {
+    color: #e5ecf4;
+    font-family: "Verdana";
+    text-align: center;
+}
+.header-footer ul {
+    list-style-type: none;
+    color: #e5ecf4;
+    font-family: "Verdana";
+    text-decoration: none;
+    position: relative;
+    top: 30%;
+    text-align: center;
+}
+.header-footer li {
+    display: inline;
+    margin-right: 10px;
+    padding: 20px;
+}
+A {
+    text-decoration: none;
+}
+A:visited {
+    color: #e5ecf4;
+}
+A:active {
+    color: #aca6a6;
+}
+
+.body {
+    background-color: #2b292c;
+}
+
+.main-page {
+
+}
+.main-page h1 {
+    color: #e5ecf4;
+    font-family: "Garamond";
+    text-align: center;
+}
+.main-page h2 {
+    color: #e5ecf4;
+    font-family: "Verdana";
+    font-style: italic;
+    text-align: center;
+}
+.main-page h3 {
+    color: #e5ecf4;
+    font-family: "Verdana";
+    font-style: italic;
+    text-align: center;
+}
+.main-page img {
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+    outline: 3px solid #92817a;
+}
+.main-page a {
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    color: #e5ecf4;
+}
+.main-page legend {
+    text-align: center;
+    font-size: 2em;
+    color: #e5ecf4;
+}
+.main-page input {
+    background-color: #e5ecf4;
+    width: 10%;
+    position: relative;
+    left: 35%;
+    font-size: 1em;
+    font-family: Verdana;
+    color: #171614;
+}
+.main-page textarea {
+    width: 30%;
+    height: 400px;
+    position: relative;
+    left: 35%;
+    background-color: #e5ecf4;
+    font-size: 2em;
+    font-family: Verdana;
+    color: #171614;
+}
+.main-page iframe {
+    width: 30%;
+    position: relative;
+    left: 35%;
+}
+
+
+
