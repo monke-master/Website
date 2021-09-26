@@ -1,25 +1,44 @@
-.header-footer {
+.header-main {
     height: 70px;
     background-color: #171614;
 }
-.header-footer a {
+.header {
+    display: flex;
+}
+.header img {
+    height: 60px;
+    margin-top: 5px;
+}
+.header a {
     color: #e5ecf4;
     font-family: "Verdana";
+    font-size: 1.2em;
     text-align: center;
 }
-.header-footer ul {
+.header ul {
     list-style-type: none;
     color: #e5ecf4;
     font-family: "Verdana";
     text-decoration: none;
     position: relative;
-    top: 30%;
-    text-align: center;
+    right: -50%;
 }
-.header-footer li {
+.header li {
     display: inline;
-    margin-right: 10px;
     padding: 20px;
+}
+.footer {
+    height: 90px;
+    background-color: #171614;
+}
+.footer a {
+    color: #e5ecf4;
+    font-family: "Verdana";
+    font-size: 1.2em;
+    position: relative;
+    left: 2%;
+    top: 20px;
+    bottom: 20px;
 }
 A {
     text-decoration: none;
@@ -36,7 +55,10 @@ A:active {
 }
 
 .main-page {
-
+    display: block;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 2%;
 }
 .main-page h1 {
     color: #e5ecf4;
@@ -50,16 +72,14 @@ A:active {
     text-align: center;
 }
 .main-page h3 {
-    color: #e5ecf4;
+    color: #e5ecf4;;
     font-family: "Verdana";
     font-style: italic;
     text-align: center;
 }
 .main-page img {
-    width: 500px;
     display: block;
     margin: 0 auto;
-    outline: 3px solid #92817a;
 }
 .main-page a {
     display: block;
@@ -74,28 +94,91 @@ A:active {
 }
 .main-page input {
     background-color: #e5ecf4;
-    width: 10%;
+    width: 20%;
     position: relative;
-    left: 35%;
+    left: 25%;
     font-size: 1em;
     font-family: Verdana;
     color: #171614;
 }
 .main-page textarea {
-    width: 30%;
+    width: 50%;
     height: 400px;
     position: relative;
-    left: 35%;
+    left: 25%;
     background-color: #e5ecf4;
     font-size: 2em;
     font-family: Verdana;
     color: #171614;
 }
 .main-page iframe {
-    width: 30%;
+    width: 50%;
     position: relative;
-    left: 35%;
+    left: 25%;
 }
-
-
+.catalog {
+    display: flex;
+    position: relative;
+    left: 10%;
+}
+.h {
+    color: #e5ecf4;
+    font-family: "Garamond";
+    text-align: center;
+}
+.product {
+    display: block;
+    margin-right: 10%;
+    margin-top: 2%;
+    margin-bottom: 30%;
+    outline: 5px solid #aca6a6;
+    text-align: center;
+}
+.product img {
+    height: 200px;
+    width: 200px;
+}
+.product a {
+    font-size: 1.5em;
+    color: #e5ecf4;
+}
+.product-image {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    left: 10%;
+    top: 50px;
+}
+.product-page {
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.product-page img {
+    width: 400px;
+    height: 400px;
+    margin-left: 20%;
+}
+.product-info {
+    display: block;
+    margin-left: 5%;
+    text-align: left;
+    width: 20%;
+}
+.product-info h1 {
+    color: #e5ecf4;
+    font-family: "Garamond";
+}
+.product-info h2 {
+    color: #e5ecf4;
+    font-family: "Verdana";
+}
+.product-info h3 {
+    color: #e5ecf4;
+    font-family: "Verdana";
+}
+.product-info input {
+    font-family: "Verdana";
+    font-size: 1.7em;
+}
 
