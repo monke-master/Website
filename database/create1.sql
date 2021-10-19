@@ -1,0 +1,5 @@
+CREATE TABLE providers (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    address TEXT NOT NULL
+)
