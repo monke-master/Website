@@ -1,0 +1,1 @@
+SELECT login, MAX(DATE(registration_date)) FROM users 
