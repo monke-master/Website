@@ -1,0 +1,1 @@
+SELECT COUNT(id) AS 'total_items' FROM items
