@@ -1,0 +1,1 @@
+SELECT DISTINCT(SUBSTR(birth_date, 7, 4)) FROM users

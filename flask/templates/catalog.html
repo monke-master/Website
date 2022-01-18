@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>Каталог</title>
+ <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body class="body">
+   <header class="header-main">
+       <div class="header">
+           <ul>
+               <li><img src="{{ url_for('static', filename='pictures/logo-mini.svg') }}"></li>
+               <li><a href="/">Главная</a></li>
+               <li><a href="catalog">Каталог</a></li>
+               <li><a href="contacts">Контакты</a></li>
+               <li><img src="{{ url_for('static', filename='pictures/logo-mini.svg') }}"></li>
+           </ul>
+       </div>
+   </header>
+
+   <h1 class="h">Каталог наших товаров</h1>
+
+   <div class="catalog">
+
+       <div class="product">
+           <img src="{{ url_for('static', filename='pictures/wristgloves.png') }}" alt="♂Latex gloves♂" /> <br>
+           <a href="gloves"> &#9794Latex gloves&#9794</a>
+       </div>
+
+       <div class="product">
+           <img src="{{ url_for('static', filename='pictures/plane.jpg') }}" alt="Билеты на ♂Cum♂чатку" /> <br>
+           <a> Билеты на &#9794Cum&#9794чатку</a>
+       </div>
+
+       <div class="product">
+           <img src="{{ url_for('static', filename='pictures/vans.jpg') }}" alt="♂Van♂сы" /> <br>
+           <a> &#9794Van&#9794сы</a>
+       </div>
+   </div>
+
+
+
+   <footer class="footer">
+       <a> Электронная почта: gayWebsite@mail.com <br>
+           Моб. телефон: 8-800-535-35-35
+       </a>
+   </footer>
+
+</body>
+</html>
